@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "nuwantissera": {
+      "type": "object",
+      "properties": {
+        "qeqe": {
+          "type": "object",
+          "properties": {
+            "config": {
+              "type": "object",
+              "properties": {
+                "apiSecretKey": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "apiSecretKey"
+              ],
+              "name": "ballerinax/trigger.shopify:1.0.0:ListenerConfig",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "config"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
